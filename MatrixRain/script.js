@@ -29,7 +29,7 @@ linearGradient.addColorStop(1, 'magenta'); // 80% - 100%
 //x1, y1, radius1 - координаты центра x1, y1 внешней окружности радиусом radius1
 //градиент будет между этими окружнастями
 
-
+/*
 let radialGradient = ctx.createRadialGradient(canvas.width / 2, canvas.height / 2, 100, canvas.width / 2, canvas.height / 3, 400);
 
 // начинает с центра внутренней окружности и постепенно по слоям к внешней
@@ -39,7 +39,7 @@ radialGradient.addColorStop(0.4, 'green'); // 20% - 40%
 radialGradient.addColorStop(0.6, 'cyan'); // 40% - 60%
 radialGradient.addColorStop(0.8, 'blue'); // 60% - 80%
 radialGradient.addColorStop(1, 'magenta'); // 80% - 100%
-
+*/
 class Symbol {
     constructor(x, y, fontSize, canvasWidth, canvasHeight){
         this.x = x;
@@ -101,7 +101,7 @@ function animate(timeStamp){
         ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         //подключаем градиент
-        ctx.fillStyle = radialGradient //linearGradient; //'#0aff0a';
+        ctx.fillStyle = '#0aff0a'; //radialGradient //linearGradient;
         //ctx.textAlign = 'center/left/right/start/end'
         ctx.textAlign = 'center';
         //устновка шрифта
