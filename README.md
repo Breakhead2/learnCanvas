@@ -1,4 +1,4 @@
-# learnCanvas a few lessons
+# learnCanvas for few lessons
 --> lesson 1: make your own brush, studied how to make circle, rictangle, line
 result: https://breakhead2.github.io/learnCanvas/Basic/
 
